@@ -63,6 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\Flicking.cs" />
+    <Compile Include="Assets\Scrips\MouseLook.cs" />
+    <Compile Include="Assets\Scrips\playerMovement.cs" />
+    <Compile Include="Assets\Scrips\PlayerTeleport.cs" />
+    <Compile Include="Assets\Scrips\ThirdPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Flicking.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
