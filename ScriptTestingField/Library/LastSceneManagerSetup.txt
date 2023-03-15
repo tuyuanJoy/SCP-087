@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
-  isLoaded: 0
-  isActive: 0
+- path: Assets/Scenes/Teleport.unity
+  isLoaded: 1
+  isActive: 1
