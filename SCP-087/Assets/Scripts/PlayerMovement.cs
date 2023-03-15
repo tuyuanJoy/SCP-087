@@ -14,13 +14,21 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    private bool isgoingUp;
+    private float heightbf;
+    private float heightaf;
+
     Vector3 velocity;
     bool isGrouded;
    
-
+    public bool IsGoingUp()
+    {
+        return isgoingUp;
+    }
     // Update is called once per frame
     void Update()
     {
+        
         float  sped = speed;
         isGrouded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if(isGrouded && velocity.y < 0)
