@@ -21,16 +21,16 @@ public class PlayerTeleport : MonoBehaviour
     private void OnTriggerEnter(Collider Other)
     {
 
-        Debug.Log("Collided");
+       // Debug.Log("Collided");
         if (IsGoingDown)
         {
              Env.transform.position +=new Vector3(0,-9,0);
-             Debug.Log("Going Down");
+            // Debug.Log("Going Down");
         }
         else 
         {
             Env.transform.position += new Vector3(0,9,0);
-            Debug.Log("Going Up");
+          //  Debug.Log("Going Up");
         }
 
     }
