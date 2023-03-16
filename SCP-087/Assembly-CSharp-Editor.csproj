@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.11.4.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2018.4.18f1</UnityVersion>
@@ -66,25 +67,25 @@
     <Compile Include="Assets\Kino\Glitch\Editor\AnalogGlitchEditor.cs" />
     <Compile Include="Assets\Kino\Glitch\Editor\DigitalGlitchEditor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,23 +324,20 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.18f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.OSXStandalone.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/TuYuan/SCP_087/SCP-087/SCP-087/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/JoysStuff/MasterSCP-087(Serious)/SCP-087/SCP-087/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
