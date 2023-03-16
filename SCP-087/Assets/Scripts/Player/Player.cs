@@ -1,16 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Kino;
 
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
 
     public CharacterController controller;
+
+    //EventObject
+      //light
+    public Light pointLight;
+    public DigitalGlitch digitalGlitch;
+    public AnalogGlitch analogGlitch;
+      //sound
+    public AudioSource footstepAudio;
+    public AudioSource cryingAudio;
+    public AudioSource pianoAudio;
+      //jump Scare
+
+
+
+    //Movment
     public float speed = 6f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
-    
+   
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
@@ -19,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     bool isGrouded;
    
   
-    // Update is called once per frame
+    // Movement
     void Update()
     { 
         float  sped = speed;
