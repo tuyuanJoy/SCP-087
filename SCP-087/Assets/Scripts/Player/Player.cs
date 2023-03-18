@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     public AudioSource footstepAudio;
     public AudioSource cryingAudio;
     public AudioSource pianoAudio;
+    public AudioSource superised;
       //jump Scare
 
 
