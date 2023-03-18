@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 {
 
     public CharacterController controller;
-
+    public GameObject jumpScare1;
     //EventObject
       //light
     public Light pointLight;

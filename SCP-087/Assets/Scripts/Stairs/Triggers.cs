@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MoodMe;
+using UnityEngine.UI;
 
 public class Triggers : MonoBehaviour
 {
    
     public Player player;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class Triggers : MonoBehaviour
         switch (tiggerType)
         {
             case 0:
+                
                 Debug.Log("trigger1 ");
                 StartCoroutine(Trigger1Glitch());
                 break;
@@ -41,18 +44,19 @@ public class Triggers : MonoBehaviour
                 StartCoroutine(Trigger2Glitch());
                 break;
             case 2:
-
                 Debug.Log("trigger3 ");
-
                 player.cryingAudio.PlayOneShot(player.cryingAudio.clip);
                 StartCoroutine(ResetLightIntense());
                 break;
             case 3:
 
                 Debug.Log("trigger4 ");
-
                 player.pianoAudio.PlayOneShot(player.pianoAudio.clip);
                 StartCoroutine(ResetLightIntense());
+                break;
+            case 4:
+                //Jump scare
+                StartCoroutine(JumpScare1());
                 break;
             default:
                 break;
@@ -104,6 +108,24 @@ public class Triggers : MonoBehaviour
         yield return new WaitForSeconds(2f);
         player.pointLight.intensity = 0;
 
+    }
+
+    IEnumerator JumpScare1()
+    {
+        if (player.jumpScare1 != null)
+        {
+            player.jumpScare1.SetActive(true);
+        }
+        yield return new WaitForSeconds(2f);
+        player.jumpScare1.GetComponent<Image>().enabled = false;
+        yield return new WaitForSeconds(0.3f);
+        player.jumpScare1.GetComponent<Image>().enabled = true;
+        yield return new WaitForSeconds(0.5f); 
+        player.jumpScare1.GetComponent<Image>().enabled = false;
+        yield return new WaitForSeconds(0.2f);
+        player.jumpScare1.GetComponent<Image>().enabled = true;
+        yield return new WaitForSeconds(0.2f);
+        player.jumpScare1.SetActive(false);
     }
 
 
