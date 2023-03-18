@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - EnterMaze
     - EventManager
     - Flicking
+    - GlitchWhenNear
     - Kino.AnalogGlitch
     - Kino.DigitalGlitch
     - MainMenu
@@ -106,33 +107,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12856}
     - Class: 114
-      Script: {instanceID: 13224}
+      Script: {instanceID: 13226}
     - Class: 114
-      Script: {instanceID: 13322}
+      Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 13810}
+      Script: {instanceID: 13812}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14196}
+      Script: {instanceID: 14198}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14454}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 15044}
     - Class: 114
-      Script: {instanceID: 15066}
+      Script: {instanceID: 15068}
     - Class: 114
-      Script: {instanceID: 15550}
+      Script: {instanceID: 15552}
     - Class: 114
-      Script: {instanceID: 15714}
+      Script: {instanceID: 15716}
     - Class: 114
-      Script: {instanceID: 16154}
+      Script: {instanceID: 16156}
     - Class: 114
-      Script: {instanceID: 16378}
+      Script: {instanceID: 16380}
     - Class: 114
-      Script: {instanceID: 16680}
+      Script: {instanceID: 16682}
     - Class: 114
-      Script: {instanceID: 16782}
+      Script: {instanceID: 16784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -174,6 +175,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -181,6 +184,12 @@ ScriptsOnlyBuild:
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -205,38 +214,48 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13476}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13728}
+      Script: {instanceID: 13226}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 14136}
+      Script: {instanceID: 13730}
     - Class: 114
-      Script: {instanceID: 14520}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14912}
+      Script: {instanceID: 14138}
     - Class: 114
-      Script: {instanceID: 14978}
+      Script: {instanceID: 14522}
     - Class: 114
-      Script: {instanceID: 15076}
+      Script: {instanceID: 14914}
     - Class: 114
-      Script: {instanceID: 15314}
+      Script: {instanceID: 14980}
     - Class: 114
-      Script: {instanceID: 15420}
+      Script: {instanceID: 15078}
     - Class: 114
-      Script: {instanceID: 15714}
+      Script: {instanceID: 15316}
     - Class: 114
-      Script: {instanceID: 16706}
+      Script: {instanceID: 15422}
     - Class: 114
-      Script: {instanceID: 16776}
+      Script: {instanceID: 15716}
     - Class: 114
-      Script: {instanceID: 16782}
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16708}
+    - Class: 114
+      Script: {instanceID: 16778}
+    - Class: 114
+      Script: {instanceID: 16784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -575,6 +594,12 @@ ScriptsOnlyBuild:
     className: Flicking
   - hash:
       serializedVersion: 2
+      Hash: b9c861c4039fc9159b7928efeb32e4ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GlitchWhenNear
+  - hash:
+      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
@@ -647,7 +672,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 0c7ede4c89fc6566066853921ce3c810
+      Hash: 98e79515e2eaa93d8580a539962e96bd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player

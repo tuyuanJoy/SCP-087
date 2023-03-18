@@ -51,7 +51,7 @@ public class Triggers : MonoBehaviour
             case 3:
 
                 Debug.Log("trigger4 ");
-                player.pianoAudio.PlayOneShot(player.pianoAudio.clip);
+                player.footstepAudio.PlayOneShot(player.footstepAudio.clip);
                 StartCoroutine(ResetLightIntense());
                 break;
             case 4:

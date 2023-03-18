@@ -66,15 +66,16 @@
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\MorphController.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\FaceDetectorPostProcessing.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\Preprocessing.cs" />
+    <Compile Include="Assets\Scripts\Game\EnterMaze.cs" />
+    <Compile Include="Assets\Scripts\Game\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Game\GlitchWhenNear.cs" />
+    <Compile Include="Assets\Scripts\Game\PlayerTeleport.cs" />
+    <Compile Include="Assets\Scripts\Game\Triggers.cs" />
     <Compile Include="Assets\Scripts\Menu\Brightness.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\Flicking.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Stairs\EnterMaze.cs" />
-    <Compile Include="Assets\Scripts\Stairs\EventManager.cs" />
-    <Compile Include="Assets\Scripts\Stairs\PlayerTeleport.cs" />
-    <Compile Include="Assets\Scripts\Stairs\Triggers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
