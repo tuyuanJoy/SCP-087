@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Triggers : MonoBehaviour
 {
    
-    public Player player;
+    public Player.Player player;
     
     // Start is called before the first frame update
     void Start()
