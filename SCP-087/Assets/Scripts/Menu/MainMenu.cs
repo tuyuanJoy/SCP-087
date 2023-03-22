@@ -22,9 +22,7 @@ public class MainMenu : MonoBehaviour
             }
             File.AppendAllText(path, playerName.text);
 
-
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Debug.Log("My Name is" + PlayerPrefs.GetString(name));
         }else if(string.IsNullOrEmpty(playerName.text))
         {
             Debug.Log("Input your nickname");

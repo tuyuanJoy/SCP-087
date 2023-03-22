@@ -5,20 +5,43 @@ using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
+    public static bool isPaused;
+    public static GameObject pauseLabel;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
+ 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
-            Application.Quit();
-
+            //SceneManager.LoadScene(0);
+            TogglePause();
         }
     }
+
    
+    public static void TogglePause()
+    {
+        if(Time.timeScale > 0)
+        {
+            Time.timeScale = 0;
+            AudioListener.pause = true;
+            isPaused = true;
+            pauseLabel.SetActive(true); 
+        }   
+        else if(Time.timeScale == 0)
+        {
+
+            Time.timeScale = 1;
+            AudioListener.pause = false;
+            isPaused = false;
+            pauseLabel.SetActive(true);
+        }
+    }
 }
