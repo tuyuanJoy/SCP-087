@@ -3,4 +3,6 @@ Emotion record
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
-Joy​
+Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:1855; DisgustCount:390; ScaredCount:80; 
+ With Emotion AI: True; SurpriseCount:70; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:1028; DisgustCount:160; ScaredCount:190; 
