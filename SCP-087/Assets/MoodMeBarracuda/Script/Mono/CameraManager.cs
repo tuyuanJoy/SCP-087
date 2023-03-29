@@ -31,6 +31,10 @@ namespace MoodMe
         // Start is called before the first frame update
         void Start()
         {
+			if (PlayerPrefs.GetInt("Webcam")>=0)
+            {
+                DeviceIndex = PlayerPrefs.GetInt("Webcam");
+            }									
             //Webcam select
             try
             {
@@ -135,5 +139,19 @@ namespace MoodMe
             
 
         }
+		public void StartCamera(int index)
+        {
+            DeviceIndex = index;
+            string camName = WebCamTexture.devices[DeviceIndex].name;
+            CameraTexture = new WebCamTexture(camName, _width, _height, 30);
+            CameraTexture.Play();
+            StartCoroutine(WaitForWebCamAndInitialize(CameraTexture));
+        }
+
+        public void StopCamera()
+        {
+            CameraTexture.Stop();
+            //WebCamTexture.Destroy(CameraTexture);
+        }								  
     }
 }

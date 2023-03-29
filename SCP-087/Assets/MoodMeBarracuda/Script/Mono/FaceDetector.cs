@@ -43,7 +43,7 @@ namespace MoodMe
 
         public static float[] OutputCropFloat;
 
-
+		public static Texture2D _cropTexture;
 
         private IWorker engine;
 
@@ -114,7 +114,7 @@ namespace MoodMe
                 tensor = new Tensor(1, ImageNetworkHeight, ImageNetworkWidth, ChannelCount, tensorData);
                 DateTime timestamp;
                 timestamp = DateTime.Now;
-                output = engine.ExecuteAndWaitForCompletion(tensor);
+                output = engine.Execute(tensor).CopyOutput();
                 //Debug.Log("FACE DETECTOR INFERENCE TIME: " + (DateTime.Now - timestamp).TotalMilliseconds + " ms");
                 scores = engine.PeekOutput("scores");
                 boxes = engine.PeekOutput("boxes");
@@ -146,7 +146,7 @@ namespace MoodMe
                         if (_souceRec.Contains(_cropStart) && _souceRec.Contains(_cropEnd))
                         {
                             OutputCrop = new Color32[_boxSide * _boxSide];
-                            Texture2D _cropTexture = new Texture2D((int)(_boxSide * xScale), (int)(_boxSide * yScale), TextureFormat.RGBA32, false);
+                            _cropTexture = new Texture2D((int)(_boxSide * xScale), (int)(_boxSide * yScale), TextureFormat.RGBA32, false);
                             _cropTexture.SetPixels(0, 0, (int)(_boxSide * xScale), (int)(_boxSide * yScale), CameraManager.GetTexture.GetPixels(_xCrop, _yCrop, _xBoxSide, _yBoxSide));
                             _cropTexture.Apply();
 
@@ -293,6 +293,7 @@ namespace MoodMe
             boxes.Dispose();
             output.Dispose();
             tensor.Dispose();
+			engine.Dispose();				 
         }
 
     }

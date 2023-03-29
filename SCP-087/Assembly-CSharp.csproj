@@ -60,11 +60,14 @@
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\EmotionInterface.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\EmotionsManager.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\FaceDetector.cs" />
+    <Compile Include="Assets\MoodMeBarracuda\Script\Mono\GetEmotionTrigger.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\GetEmotionValue.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\ManageEmotionsNetwork.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\MoodMeEmotions.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Mono\MorphController.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\FaceDetectorPostProcessing.cs" />
+    <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\LowPassFilter.cs" />
+    <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\OneEuroFilter.cs" />
     <Compile Include="Assets\MoodMeBarracuda\Script\Scriptable\Preprocessing.cs" />
     <Compile Include="Assets\Scripts\Game\EmoRecorder.cs" />
     <Compile Include="Assets\Scripts\Game\EnterMaze.cs" />

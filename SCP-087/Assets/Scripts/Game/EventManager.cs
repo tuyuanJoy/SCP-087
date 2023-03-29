@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
+    [SerializeField]
     public static bool isPaused;
     public static GameObject pauseLabel;
 
@@ -33,7 +34,7 @@ public class EventManager : MonoBehaviour
             Time.timeScale = 0;
             AudioListener.pause = true;
             isPaused = true;
-            pauseLabel.SetActive(true); 
+            if(pauseLabel)pauseLabel.SetActive(true); 
         }   
         else if(Time.timeScale == 0)
         {
@@ -41,7 +42,7 @@ public class EventManager : MonoBehaviour
             Time.timeScale = 1;
             AudioListener.pause = false;
             isPaused = false;
-            pauseLabel.SetActive(true);
+            if(pauseLabel)pauseLabel.SetActive(true);
         }
     }
 }

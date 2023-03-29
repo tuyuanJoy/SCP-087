@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6960,7 +6960,7 @@ PrefabInstance:
         type: 3}
       propertyPath: EmotionsNNetwork
       value: 
-      objectReference: {fileID: 11400000, guid: 336b238100d1d7241a721b5fbba14bac,
+      objectReference: {fileID: 5022602860645237092, guid: 9ff871d4ff637e04dbcb77e22596da5c,
         type: 3}
     - target: {fileID: 3394330362466640328, guid: 1003c61218737464693563b8cc640e59,
         type: 3}
@@ -7031,7 +7031,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Network
       value: 
-      objectReference: {fileID: 11400000, guid: d5240bf52406f9645837589c0d7c7785,
+      objectReference: {fileID: 5022602860645237092, guid: d5240bf52406f9645837589c0d7c7785,
         type: 3}
     - target: {fileID: 3394330362466640331, guid: 1003c61218737464693563b8cc640e59,
         type: 3}

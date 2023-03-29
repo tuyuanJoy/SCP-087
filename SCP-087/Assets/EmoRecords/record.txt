@@ -6,3 +6,17 @@ Emotion record
 Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:1855; DisgustCount:390; ScaredCount:80; 
  With Emotion AI: True; SurpriseCount:70; Angry Count:0; DisgustCount:0; ScaredCount:0; 
  With Emotion AI: True; SurpriseCount:0; Angry Count:1028; DisgustCount:160; ScaredCount:190; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:489; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:1182; DisgustCount:1182; ScaredCount:1182; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:572; DisgustCount:572; ScaredCount:572; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:312; DisgustCount:312; ScaredCount:312; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:1792; DisgustCount:1792; ScaredCount:1792; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:1522; DisgustCount:1522; ScaredCount:1522; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:212; DisgustCount:212; ScaredCount:212; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:812; DisgustCount:812; ScaredCount:812; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:210; DisgustCount:210; ScaredCount:210; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:863; DisgustCount:863; ScaredCount:863; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:653; DisgustCount:653; ScaredCount:653; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:829; DisgustCount:829; ScaredCount:829; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
