@@ -1423,6 +1423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1501922245}
+  IsUsingEmo: 0
 --- !u!1 &175862087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,6 +3897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1501922245}
+  IsUsingEmo: 1
 --- !u!65 &547569171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5789,6 +5791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1501922245}
+  IsUsingEmo: 0
 --- !u!1 &771678682
 GameObject:
   m_ObjectHideFlags: 0
@@ -13438,6 +13441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1501922245}
+  IsUsingEmo: 0
 --- !u!1 &1812750188
 GameObject:
   m_ObjectHideFlags: 0
@@ -16031,6 +16035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421871576094647552, guid: b7a0ea788b77a2b44958ae6ad9ee0618,
+        type: 3}
+      propertyPath: IsUsingEmo
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8421871576094647552, guid: b7a0ea788b77a2b44958ae6ad9ee0618,
         type: 3}

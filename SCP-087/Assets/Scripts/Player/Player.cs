@@ -8,6 +8,7 @@ namespace Player
     public class Player : MonoBehaviour
     {
 
+        public bool IsUsingEmo = false;
         public CharacterController controller;
         public GameObject jumpScare1;
         //EventObject

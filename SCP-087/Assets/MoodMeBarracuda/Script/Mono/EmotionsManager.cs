@@ -162,13 +162,13 @@ namespace MoodMe
                                
                                 Emotions = Filter(Emotions, CurrentEmotions, Frequency, MinCutOff);
                                 
-                                Debug.Log("angry " + Emotions.angry);
-                                Debug.Log("disgust " + Emotions.disgust);
-                                Debug.Log("happy " + Emotions.happy);
-                                Debug.Log("neutral " + Emotions.neutral);
-                                Debug.Log("sad " + Emotions.sad);
-                                Debug.Log("scared " + Emotions.scared);
-                                Debug.Log("surprised " + Emotions.surprised);
+                               // Debug.Log("angry " + Emotions.angry);
+                               // Debug.Log("disgust " + Emotions.disgust);
+                               // Debug.Log("happy " + Emotions.happy);
+                               // Debug.Log("neutral " + Emotions.neutral);
+                               // Debug.Log("sad " + Emotions.sad);
+                               // Debug.Log("scared " + Emotions.scared);
+                               // Debug.Log("surprised " + Emotions.surprised);
                                 
                                 Angry = Emotions.angry;
                                 Disgust = Emotions.disgust;
