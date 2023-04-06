@@ -97,3 +97,46 @@ Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:1855; DisgustCount:39
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:10; 
  With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+
+
+
+
+-------------------------------------------Experiment
+Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:3950; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+satya​chihiro​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Chihiro​Chihiro​Joy​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Ayato​Ayato​jjj​ With Emotion AI: True; SurpriseCount:0; Angry Count:1840; DisgustCount:80; ScaredCount:1100; 
+test​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+juri​ With Emotion AI: True; SurpriseCount:0; Angry Count:1676; DisgustCount:0; ScaredCount:176; 
+juri​ With Emotion AI: True; SurpriseCount:0; Angry Count:9320; DisgustCount:0; ScaredCount:0; 
+aho​ With Emotion AI: True; SurpriseCount:0; Angry Count:690; DisgustCount:0; ScaredCount:0; 
+aho​ With Emotion AI: True; SurpriseCount:0; Angry Count:900; DisgustCount:0; ScaredCount:0; 
+test​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+yu​ With Emotion AI: True; SurpriseCount:0; Angry Count:20; DisgustCount:0; ScaredCount:0; 
+yu​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+yao​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+yao​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Nivek​ With Emotion AI: True; SurpriseCount:0; Angry Count:130; DisgustCount:0; ScaredCount:0; 
+Nivek​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Brendan​ With Emotion AI: True; SurpriseCount:0; Angry Count:7350; DisgustCount:0; ScaredCount:70; 
+Brendan​ With Emotion AI: True; SurpriseCount:0; Angry Count:2469; DisgustCount:0; ScaredCount:0; 
+Alex​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Alex​ With Emotion AI: True; SurpriseCount:0; Angry Count:190; DisgustCount:0; ScaredCount:0; 
+Alex​ With Emotion AI: True; SurpriseCount:0; Angry Count:90; DisgustCount:0; ScaredCount:0; 
+test​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+kaho​ With Emotion AI: True; SurpriseCount:0; Angry Count:120; DisgustCount:0; ScaredCount:0; 
+kaho​ With Emotion AI: True; SurpriseCount:0; Angry Count:20; DisgustCount:0; ScaredCount:0; 
+someone​ With Emotion AI: True; SurpriseCount:0; Angry Count:230; DisgustCount:0; ScaredCount:0; 
+someone​ With Emotion AI: True; SurpriseCount:0; Angry Count:370; DisgustCount:0; ScaredCount:0; 
+test​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Hiruni​ With Emotion AI: True; SurpriseCount:0; Angry Count:0; DisgustCount:0; ScaredCount:0; 
+Hiruni​ With Emotion AI: True; SurpriseCount:0; Angry Count:180; DisgustCount:0; ScaredCount:0; 
+sankha​ With Emotion AI: True; SurpriseCount:0; Angry Count:220; DisgustCount:0; ScaredCount:0; 
+sankha​ With Emotion AI: True; SurpriseCount:0; Angry Count:170; DisgustCount:0; ScaredCount:0; 

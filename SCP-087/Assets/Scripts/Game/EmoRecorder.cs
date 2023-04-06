@@ -23,10 +23,10 @@ public class EmoRecorder : MonoBehaviour
 
     public void Update()
     {
-        if (EmotionsManager.Emotions.surprised > 0.4) surpirseCount++;
-        if (EmotionsManager.Emotions.angry > 0.4) angerCount++;
-        if (EmotionsManager.Emotions.disgust > 0.4) disgustCount++;
-        if (EmotionsManager.Emotions.scared > 0.3) scaredCount++;
+        if (EmotionsManager.Emotions.surprised > 0.2) surpirseCount++;
+        if (EmotionsManager.Emotions.angry > 0.2) angerCount++;
+        if (EmotionsManager.Emotions.disgust > 0.2) disgustCount++;
+        if (EmotionsManager.Emotions.scared > 0.2) scaredCount++;
     }
 
     public void OnApplicationQuit()

@@ -25,14 +25,17 @@ public class Triggers : MonoBehaviour
 
     void Start()
     {
+
+        Debug.Log(IsUsingEmo + "IsUsing Emo");
         angryCount = 0;
         disgustCount = 0;
         scaredCount = 0;
         neuturalCount = 0;
 
         IsEventisFinished = true;
-        IsUsingEmo = player.IsUsingEmo;
-    
+        //IsUsingEmo = player.IsUsingEmo;
+        IsUsingEmo = false;
+        //IsUsingEmo = true;
         eventsLevel1[0] = Trigger2Glitch();
         eventsLevel1[1] = FootStep();
         eventsLevel1[2] = Crying();
@@ -49,6 +52,7 @@ public class Triggers : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(IsUsingEmo + "IsUsing Emo");
         if (IsUsingEmo)
         {
            
@@ -101,7 +105,7 @@ public class Triggers : MonoBehaviour
                 }
             }
             //For netural
-            else if (TriggerConditionDetector(ref neuturalCount, 800, 0.8f, EmotionsManager.Emotions.neutral) && IsEventisFinished)
+            else if (TriggerConditionDetector(ref neuturalCount, 1000, 0.8f, EmotionsManager.Emotions.neutral) && IsEventisFinished)
             {
                 Debug.Log("Neutural!!!!!!!!!!!!!!!!!!!!!!!!! ");
                 //LEVEL 12

@@ -38,6 +38,12 @@ namespace Player
         bool isGrouded;
 
         // Movement
+
+
+        void Start()
+        {
+            IsUsingEmo = false;
+        }
         void Update()
         {
             float sped = speed;
