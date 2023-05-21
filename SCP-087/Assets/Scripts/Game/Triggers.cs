@@ -11,12 +11,17 @@ public class Triggers : MonoBehaviour
    
     public Player.Player player;
     public bool IsUsingEmo;
+    public GameObject vileHug;
 
+    private float startTime;
+    private float takenTime;
     private bool IsEventisFinished;
     private int angryCount;
     private int disgustCount;
     private int scaredCount;
     private int neuturalCount;
+    
+
 
     private IEnumerator[] eventsLevel1 = new IEnumerator[3];
     private IEnumerator[] eventsLevel2 = new IEnumerator[4];
@@ -25,8 +30,12 @@ public class Triggers : MonoBehaviour
 
     void Start()
     {
+        //vileHug 
+        vileHug.SetActive(false);
+        startTime = 0;
+        takenTime = 0;
 
-        Debug.Log(IsUsingEmo + "IsUsing Emo");
+      // Debug.Log(IsUsingEmo + "IsUsing Emo");
         angryCount = 0;
         disgustCount = 0;
         scaredCount = 0;
@@ -52,7 +61,16 @@ public class Triggers : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(IsUsingEmo + "IsUsing Emo");
+        takenTime = Time.deltaTime + startTime;
+        if(takenTime >= Random.Range(15,20))
+        {
+            //VileHug actived
+            vileHug.gameObject.SetActive(true);
+        }
+
+
+
+       // Debug.Log(IsUsingEmo + "IsUsing Emo");
         if (IsUsingEmo)
         {
            
