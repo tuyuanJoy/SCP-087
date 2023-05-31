@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerTeleport : MonoBehaviour
 {
-    public GameObject Env;
+    public GameObject Player;
     public bool IsGoingDown = true;
 
 
@@ -24,13 +24,17 @@ public class PlayerTeleport : MonoBehaviour
        // Debug.Log("Collided");
         if (IsGoingDown)
         {
-             Env.transform.position +=new Vector3(0,-9,0);
+            Player.GetComponent<CharacterController>().enabled = false;
+            Player.transform.position += new Vector3(0, 9, 0);
+            Player.GetComponent<CharacterController>().enabled = true;
             // Debug.Log("Going Down");
         }
         else 
         {
-            Env.transform.position += new Vector3(0,9,0);
-          //  Debug.Log("Going Up");
+            Player.GetComponent<CharacterController>().enabled = false;
+            Player.transform.position += new Vector3(0, -9, 0);
+            Player.GetComponent<CharacterController>().enabled = true;
+            //  Debug.Log("Going Up");
         }
 
     }

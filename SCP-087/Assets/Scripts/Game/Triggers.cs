@@ -20,6 +20,7 @@ public class Triggers : MonoBehaviour
     private int disgustCount;
     private int scaredCount;
     private int neuturalCount;
+    private float audioTransitionTime;
     
 
 
@@ -30,6 +31,7 @@ public class Triggers : MonoBehaviour
 
     void Start()
     {
+        audioTransitionTime = 1.25f;
         //vileHug 
         vileHug.SetActive(false);
         startTime = 0;
@@ -41,10 +43,10 @@ public class Triggers : MonoBehaviour
         scaredCount = 0;
         neuturalCount = 0;
 
-        IsEventisFinished = true;
+        IsEventisFinished = false;
         //IsUsingEmo = player.IsUsingEmo;
         IsUsingEmo = false;
-        //IsUsingEmo = true;
+
         eventsLevel1[0] = Trigger2Glitch();
         eventsLevel1[1] = FootStep();
         eventsLevel1[2] = Crying();
@@ -78,7 +80,7 @@ public class Triggers : MonoBehaviour
             if (EmotionsManager.Emotions.surprised > 0.4)
                 {
                    // Debug.Log("Supirsed ");
-                   // player.superised.PlayOneShot(player.superised.clip);
+                    player.superised.PlayOneShot(player.superised.clip);
                 }
 
            
@@ -177,26 +179,26 @@ public class Triggers : MonoBehaviour
             switch (tiggerType)
             {
                 case 0:
-
                     Debug.Log("trigger1 ");
                     StartCoroutine(Trigger1Glitch());
                     break;
                 case 1:
                     Debug.Log("trigger2 ");
-                    StartCoroutine(Trigger2Glitch());
+                    StartCoroutine(Crying());
+                    //StartCoroutine(Trigger2Glitch());
                     break;
                 case 2:
                     Debug.Log("trigger3 ");
-                    player.cryingAudio.PlayOneShot(player.cryingAudio.clip);
                     StartCoroutine(ResetLightIntense());
                     break;
                 case 3:
-
                     Debug.Log("trigger4 ");
+
                     player.footstepAudio.PlayOneShot(player.footstepAudio.clip);
                     StartCoroutine(ResetLightIntense());
                     break;
                 case 4:
+
                     //Jump scare
                     StartCoroutine(JumpScare1());
                     break;
@@ -245,9 +247,17 @@ public class Triggers : MonoBehaviour
     {
 
         Debug.Log("LEVEL 1 --Cryring");
+        float percentage = 0;
         IsEventisFinished = false;
-        player.footstepAudio.PlayOneShot(player.cryingAudio.clip);
-        yield return new WaitForSeconds(15f);
+        player.cryingAudio.PlayOneShot(player.cryingAudio.clip);
+        yield return new WaitForSeconds(10f);
+        while(player.cryingAudio.volume > 0)
+        {
+            player.cryingAudio.volume = Mathf.Lerp(1,0,percentage);
+            percentage += Time.deltaTime / audioTransitionTime;
+            yield return null;
+        }
+        
         IsEventisFinished = true;
     }
     //LEVEL 2  --Jump Scare
