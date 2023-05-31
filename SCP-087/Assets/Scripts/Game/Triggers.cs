@@ -31,7 +31,7 @@ public class Triggers : MonoBehaviour
 
     void Start()
     {
-        audioTransitionTime = 1.25f;
+        audioTransitionTime = 2f;
         //vileHug 
         vileHug.SetActive(false);
         startTime = 0;
@@ -162,9 +162,7 @@ public class Triggers : MonoBehaviour
         {
             count = 0;
         }
-        
-        
-        return false;
+                return false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -319,9 +317,17 @@ public class Triggers : MonoBehaviour
     IEnumerator SuddenBGM()
     {
         Debug.Log("//LEVEL 2  --BGM");
+        float percentage = 0;
         IsEventisFinished = false;
         player.superised.PlayOneShot(player.superised.clip);
-        yield return new WaitForSeconds(33f);
+        yield return new WaitForSeconds(30f);
+        while(player.superised.volume > 0)
+        {
+            player.superised.volume = Mathf.Lerp(1, 0, percentage);
+            percentage += Time.deltaTime / audioTransitionTime;
+            yield return null;
+        }
+       
         IsEventisFinished = true;
         
     }
